@@ -19,6 +19,7 @@ The project also includes **EDA + Feature Selection** in Jupyter Notebook for fu
 ## 📂 Project Structure
 
 churn-predictor/
+
 ├── backend/ 
 
 │ ├── app.py
@@ -38,9 +39,11 @@ csv
 │ ├── src/
 
 │ ├── package.json
+
 │ └── vite.config.js
 
 ├── notebooks/
+
 │ └── churn_analysis.ipynb
 
 ├── README.md
