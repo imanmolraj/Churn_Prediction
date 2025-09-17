@@ -19,9 +19,7 @@ The project also includes **EDA + Feature Selection** in Jupyter Notebook for fu
 ## 📂 Project Structure
 
 churn-predictor/
-
 ├── backend/ 
-
 │ ├── app.py
 │ ├── train_model.py
 │ ├── model.pkl
