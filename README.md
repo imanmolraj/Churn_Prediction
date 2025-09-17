@@ -30,7 +30,7 @@ churn-predictor/
 │ ├── src/
 │ ├── package.json
 │ └── vite.config.js
-├── notebooks/ # Jupyter notebook
+├── notebooks/
 │ └── churn_analysis.ipynb
 ├── README.md
 └── .gitignore
@@ -46,32 +46,32 @@ churn-predictor/
    cd backend
 2. Create virtual environment & install dependencies:
 
-python -m venv .venv
-source .venv/bin/activate   
-pip install -r requirements.txt
+     python -m venv .venv
+     source .venv/bin/activate   
+     pip install -r requirements.txt
 
 3.Run the Flask server:
 
-python app.py
+     python app.py
 
-##🔹 Frontend (React + Vite)
+###🔹 Frontend (React + Vite)
 
 1.Navigate to frontend folder:
-cd frontend
+  cd frontend
 
 2.Install dependencies:
-npm install
+  npm install
 
 3.Start development server:
-npm run dev
+  npm run dev
 
-## 📒 Notebook
+### 📒 Notebook
 
 The notebooks/ folder contains:
 churn_analysis.ipynb → Includes EDA, feature engineering, model experimentation, and feature selection.
 This ensures the full workflow is transparent — from data understanding to deployment.
 
-## 📊 Model Training
+### 📊 Model Training
 
 To retrain the model:
 cd backend
