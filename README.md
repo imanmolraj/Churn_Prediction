@@ -19,14 +19,14 @@ The project also includes **EDA + Feature Selection** in Jupyter Notebook for fu
 ## 📂 Project Structure
 
 churn-predictor/
-├── backend/ # Flask API (model serving)
+├── backend/ 
 │ ├── app.py
 │ ├── train_model.py
 │ ├── model.pkl
 │ ├── Telco_Cust_Churn.csv
 │ ├── metrics.json
 │ └── requirements.txt
-├── frontend/ # React + Vite dashboard
+├── frontend/ 
 │ ├── src/
 │ ├── package.json
 │ └── vite.config.js
@@ -47,7 +47,7 @@ churn-predictor/
 2. Create virtual environment & install dependencies:
 
 python -m venv .venv
-source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+source .venv/bin/activate   
 pip install -r requirements.txt
 
 3.Run the Flask server:
