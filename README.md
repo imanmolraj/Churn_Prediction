@@ -22,33 +22,33 @@ churn-predictor/
 
 ├── backend/ 
 
- ├── app.py
+    ├── app.py
 
- ├── train_model.py
+    ├── train_model.py
 
- ├── model.pkl
+    ├── model.pkl
 
- ├── Telco_Cust_Churn.
+    ├── Telco_Cust_Churn.
 csv
- ├── metrics.json
+  ├── metrics.json
 
- └── requirements.txt
+    └── requirements.txt
 
 ├── frontend/ 
 
- ├── src/
+    ├── src/
 
- ├── package.json
+    ├── package.json
 
- └── vite.config.js
+    └── vite.config.js
 
 ├── notebooks/
 
- └── churn_analysis.ipynb
+    └── churn_analysis.ipynb
 
 ├── README.md
 
-└── .gitignore
+    └── .gitignore
 
 
 ---
