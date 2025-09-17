@@ -71,7 +71,7 @@ churn-predictor/
 
      
 
-###🔹Frontend (React + Vite)
+##🔹Frontend (React + Vite)
 
 1.Navigate to frontend folder:
   cd frontend
@@ -81,12 +81,14 @@ churn-predictor/
 
 3.Start development server:
   npm run dev
+  
 
 ### 📒 Notebook
 
 The notebooks/ folder contains:
 churn_analysis.ipynb → Includes EDA, feature engineering, model experimentation, and feature selection.
 This ensures the full workflow is transparent — from data understanding to deployment.
+
 
 ### 📊 Model Training
 
