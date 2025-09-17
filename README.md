@@ -28,11 +28,11 @@ churn-predictor/
 
     ├── model.pkl
 
-    ├── Telco_Cust_Churn.
-csv
-  ├── metrics.json
+    ├── Telco_Cust_Churn.csv
+    
+    ├── metrics.json
 
-    └── requirements.txt
+         └── requirements.txt
 
 ├── frontend/ 
 
