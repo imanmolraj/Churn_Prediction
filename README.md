@@ -69,6 +69,8 @@ churn-predictor/
 
      python app.py
 
+     
+
 ###🔹Frontend (React + Vite)
 
 1.Navigate to frontend folder:
