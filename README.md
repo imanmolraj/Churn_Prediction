@@ -20,19 +20,31 @@ The project also includes **EDA + Feature Selection** in Jupyter Notebook for fu
 
 churn-predictor/
 ├── backend/ 
+
 │ ├── app.py
+
 │ ├── train_model.py
+
 │ ├── model.pkl
-│ ├── Telco_Cust_Churn.csv
+
+│ ├── Telco_Cust_Churn.
+csv
 │ ├── metrics.json
+
 │ └── requirements.txt
+
 ├── frontend/ 
+
 │ ├── src/
+
 │ ├── package.json
 │ └── vite.config.js
+
 ├── notebooks/
 │ └── churn_analysis.ipynb
+
 ├── README.md
+
 └── .gitignore
 
 
