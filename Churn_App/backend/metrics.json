@@ -1,0 +1,81 @@
+{
+  "Logistic Regression": {
+    "auc": 0.835,
+    "accuracy": 0.807,
+    "feature_importance": {
+      "tenure": 1.0565,
+      "Contract_Two year": 0.6653,
+      "Contract_Month-to-month": 0.5572,
+      "InternetService_DSL": 0.3908,
+      "TotalCharges": 0.3226,
+      "PhoneService_Yes": 0.3188,
+      "MultipleLines_No": 0.2948,
+      "OnlineSecurity_Yes": 0.2941,
+      "PaperlessBilling_No": 0.2887,
+      "TechSupport_Yes": 0.2745,
+      "Dependents_Yes": 0.2581,
+      "InternetService_Fiber optic": 0.2577,
+      "PaymentMethod_Bank transfer (automatic)": 0.2025,
+      "PaymentMethod_Electronic check": 0.1843,
+      "MonthlyCharges": 0.1836,
+      "Contract_One year": 0.1809,
+      "OnlineBackup_Yes": 0.1725,
+      "PaymentMethod_Credit card (automatic)": 0.1637,
+      "Partner_Yes": 0.1634,
+      "StreamingTV_No": 0.1623
+    }
+  },
+  "Random Forest": {
+    "auc": 0.814,
+    "accuracy": 0.787,
+    "feature_importance": {
+      "TotalCharges": 0.1636,
+      "tenure": 0.1411,
+      "MonthlyCharges": 0.1345,
+      "Contract_Month-to-month": 0.051,
+      "PaymentMethod_Electronic check": 0.0318,
+      "OnlineSecurity_No": 0.031,
+      "InternetService_Fiber optic": 0.0305,
+      "TechSupport_No": 0.0227,
+      "SeniorCitizen": 0.0198,
+      "gender_Female": 0.0185,
+      "gender_Male": 0.0183,
+      "OnlineBackup_No": 0.0183,
+      "Contract_Two year": 0.0173,
+      "PaperlessBilling_No": 0.0155,
+      "PaperlessBilling_Yes": 0.0149,
+      "DeviceProtection_No": 0.0147,
+      "Partner_Yes": 0.0143,
+      "Partner_No": 0.014,
+      "MultipleLines_Yes": 0.0139,
+      "MultipleLines_No": 0.0131
+    }
+  },
+  "XGBoost": {
+    "auc": 0.835,
+    "accuracy": 0.795,
+    "feature_importance": {
+      "Contract_Month-to-month": 0.3769,
+      "InternetService_Fiber optic": 0.0892,
+      "OnlineSecurity_No": 0.0738,
+      "InternetService_No": 0.0581,
+      "TechSupport_No": 0.0387,
+      "Contract_Two year": 0.0334,
+      "InternetService_DSL": 0.0236,
+      "tenure": 0.0183,
+      "StreamingMovies_Yes": 0.0164,
+      "Contract_One year": 0.0163,
+      "PaymentMethod_Electronic check": 0.0154,
+      "StreamingTV_Yes": 0.0151,
+      "PhoneService_Yes": 0.014,
+      "PaperlessBilling_No": 0.0124,
+      "OnlineBackup_No": 0.0118,
+      "StreamingTV_No": 0.0117,
+      "MultipleLines_Yes": 0.0112,
+      "MultipleLines_No": 0.0107,
+      "OnlineSecurity_Yes": 0.0106,
+      "MonthlyCharges": 0.0099
+    }
+  },
+  "current_model": "Logistic Regression"
+}
